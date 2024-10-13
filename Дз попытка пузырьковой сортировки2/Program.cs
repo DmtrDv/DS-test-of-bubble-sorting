@@ -18,11 +18,11 @@ namespace Дз_попытка_пузырьковой_сортировки2
             }
 
             int dopVariable; //добавил дополнительную переменную
-            for (int a = 0; a < list.Count; a++)
+            for (int a = 0; a < list.Count; a++) 
             {
                 for (int b = a + 1; b < list.Count; b++)
-                {
-                    if (list[a] > list[b])
+                {                                           //спомощью циклов берём два числа
+                    if (list[a] > list[b]) // если первое число окажется больше второго, то меняем их местами
                     {
                         dopVariable = list[a];
                         list[a] = list[b];
